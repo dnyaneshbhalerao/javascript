@@ -1,0 +1,5 @@
+#Ignoring editor files for check-in to master
+
+.idea/**
+
+npm-debug.log
