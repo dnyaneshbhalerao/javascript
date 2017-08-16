@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <title>Game-Test Your Memory</title>
+  <meta charset="UTF-8"/>
+  <script>
+  function onStart1(){
+    console.log("on Start");
+    var chk = document.getElementById("cBox");
+    chk.checked ?location.replace("BeginGame.html"):alert("Please tick on the check box");
+  }
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron text-center">
+      <h3>Welcome to the Game Portal</h3>
+    </div>
+      <h4 id="instructions">Please read the instruction </h4>
+      <p>
+        <ol>
+          <li>Game consist of finite no of boxes at each level.</li>
+          <li>Number of boxes will increase on each level.</li>
+          <li>Few number of boxes will be highlighted for few milisecond when you click
+            on "Blink" button</li>
+          <li>User can Blinck element only once</li>
+          <li>User has to select each highlighted box</li>
+          <li>If all the boxes among the higheted are get selected user can submit the answer</li>
+          <li>If all selected boxes and number of highlighted boxes are exactly the same, User will move to the next level</li>
+          <li>Number of boxes and radomly blink count get difficult as user moves to the higher level</li>
+          <li>Each level has score point </li>
+        </ol>
+      </p>
+        <p id="cBoxPara">
+          <label><input type="checkbox" id="cBox" value="first_checkbox"> I understood all the rules and ready
+            to begin the game</label><br>
+        </p>
+        <p>
+          <button  id="start" onclick="onStart1()">Start</button>
+        </p>
+    </div>
+  </body>
+
+  </html>

@@ -1,0 +1,27 @@
+body{
+	margin: 2% 20% 2% 20%;
+	padding: 1%;
+}
+.innerDiv{
+	height:50px;
+	width:50px;
+	margin:0.5%;
+	background:red;
+	display:inline-block;
+	border-radius: 10px;
+}
+#outerDiv{
+	margin: 0.6%;
+	padding:0.6%;
+	height: auto;
+	width: auto;
+	border-radius: 10px;
+	background:#;
+}
+button{
+	height: 25px;
+	width: 80px;
+	border-radius: 5px;
+	margin: 2% 1% 0% 1%;
+	background: greenyellow
+}

@@ -1,0 +1,32 @@
+body{
+  	margin: 2% 20% 2% 20%;
+    position: absolute;
+    background: green;
+    color: #fff;
+}
+h1{
+  color: red;
+}
+h4{
+  color: #fff;
+}
+button{
+  background: blue;
+  color: inherit;
+  height: auto;
+  width: auto;
+  border-radius: 5px;
+}
+li{
+  margin: 0.5% 0% 0% 0%;
+  padding: 0.5% 0% 0% 0%;
+}
+#cBox{
+  margin-left: 2.5%;
+}
+#instructons{
+  margin-top:3%;
+}
+#start{
+  margin-left: 5%;
+}
