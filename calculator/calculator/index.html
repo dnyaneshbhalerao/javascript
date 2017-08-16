@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title >Simple Calculator</title>
+		<link rel="stylesheet" type="text/css" href="css/calculatorStyleSheet.css">
+		<script type="text/javascript" src="script/calculatorScript.js"></script>
+	</head>
+<!-- Here the HTML Body Begins!-->
+	<body>
+		<h1>First Simple Calculator </h1>
+		<center>
+			<div >
+				<table id="table" border=2 >
+					<tr>
+						<td colspan=2>
+							<input class="inputText" id="Display" type="text" size="20" />
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<center><input type="button" class="Buttons" name="1" value="1" onclick="update(1)">
+							<input type="button" class="Buttons" name="2" value="2" onclick="update(2)">
+							<input type="button" class="Buttons" name="3" value="3" onclick="update(3)">
+							<input type="button" id="clear"  class="Buttons" name="C" value="C" onclick="clear1('')">
+
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<center>
+								<input type="button" class="Buttons" name="4" value="4" onclick="update(4)">
+								<input type="button" class="Buttons" name="5" value="5" onclick="update(5)">
+								<input type="button" class="Buttons" name="6" value="6" onclick="update(6)">
+								<input type="button" id="plus"  class="Buttons" name="+" value="+" onclick="update('+')">
+							</center>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<center>
+								<input type="button" class="Buttons" name="7" value="7" onclick="update(7)">
+								<input type="button" class="Buttons" name="8" value="8" onclick="update(8)">
+								<input type="button" class="Buttons" name="9" value="9" onclick="update(9)">
+								<input type="button" id="minus"  class="Buttons" name="-" value="-" onclick="update('-')">
+						</center>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<center>
+								<input type="button" class="Buttons" name="0" value="0" onclick="update(0)">
+								<input type="button" class="Buttons" name="00" value="00" onclick="update('00')">
+								<input type="button" class="Buttons" name="." value="." onclick="update('.')">
+								<input type="button" id="mul"  class="Buttons" name="*" value="*" onclick="update('*')">
+							</center>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<center>
+								<input type="button" id="openparenthesis" class="Buttons" name="(" value="(" onclick="update('(')">
+								<input type="button" id="closeparenthesis" class="Buttons" name=")" value=")" onclick="update(')')">
+								<input type="button" id="equalto" class="Buttons" name="=" value="=" onclick="result()">
+								<input type="button" id="div"  class="Buttons" name="/" value="/" onclick="update('/')">
+							</center>
+						</td>
+					</tr>
+
+				</table>
+			</div>
+		</center>
+	</body>
+</html>
