@@ -1,1 +1,1 @@
-# Javascript Repository to explore javascript
+# Javascript Repository to Learn javascript
